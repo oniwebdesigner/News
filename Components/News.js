@@ -4,8 +4,6 @@ import Spinner from './Spinner'
 import InfiniteScroll from 'react-infinite-scroll-component';
 import NewSpinner from './NewSpinner';
 
-
-
 const News = (props) => {
     const [newsData, setNewsData] = useState([])
     const [pageNum, setPageNum] = useState(1)
@@ -37,7 +35,6 @@ const News = (props) => {
         setPageNum(pageNum + 1)
 
     }
-
 
     useEffect(() => {
         getInfo()

@@ -1,6 +1,4 @@
-
-
-import { PiBird } from 'react-icons/pi'
+import { TiNews } from "react-icons/ti";
 import React, { useState } from 'react'
 import Link from 'next/link';
 import { RxHamburgerMenu } from 'react-icons/rx'
@@ -17,7 +15,7 @@ const Navbar = () => {
     return <>
         <div className='sticky top-0 z-50  bg-[#0dddce]  px-4 flex flex-row w-full  h-auto justify-between items-center p-2 '>
             <div className='flex gap-3 items-center'>
-                <PiBird className='text-2xl md:text-4xl text-gray' />
+                <TiNews className='text-2xl md:text-4xl text-gray' />
                 <Link href="/"><span className=' text-xl md:text-2xl font-bold '>Early Bird News</span></Link>
             </div>
 
