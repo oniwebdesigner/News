@@ -64,7 +64,7 @@ const News = (props) => {
             dataLength={newsData.length}
             next={fetchMoreData}
             hasMore={true ? newsData.length <= totalResults : false}
-            loader={<NewSpinner />}
+            //loader={<NewSpinner />}
         >
 
 

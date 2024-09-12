@@ -25,8 +25,6 @@ const Navbar = () => {
                 <ul className='text-lg flex flex-col md:flex-row gap-8 md:gap-4 text-black font-semibold bg-teal-400  md:bg-inherit items-center justify-center h-full bg-opacity-90'>
                     <li onClick={() => setIsToggled(false)}  ><Link className='hover:text-blue-500' href="/about">About us</Link> </li>
                     <li onClick={() => setIsToggled(false)}><Link className='hover:text-blue-600' href="/entertainment">Entertainment</Link></li>
-                    <li onClick={() => setIsToggled(false)} ><Link className='hover:text-blue-600' href="/business">Business</Link></li>
-                    <li onClick={() => setIsToggled(false)} ><Link className='hover:text-blue-600' href="/health">Health</Link></li>
                     <li onClick={() => setIsToggled(false)} ><Link className='hover:text-blue-600' href="/science">Science</Link></li>
                     <li onClick={() => setIsToggled(false)} ><Link className='hover:text-blue-600' href="/sports">Sports</Link></li>
                     <li onClick={() => setIsToggled(false)} ><Link className='hover:text-blue-600' href="/technology">Technology</Link></li>
