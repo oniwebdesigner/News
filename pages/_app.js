@@ -8,6 +8,7 @@ function MyApp({ Component, pageProps }) {
     <Component {...pageProps} />
     <Footer /> {/* Footer do të shfaqet në fund të çdo faqeje */}
   </>
+  
 }
 
 export default MyApp
