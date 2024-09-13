@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
   return <>
     <Navbar />
     <Component {...pageProps} />
-    <Footer /> {/* Footer do të shfaqet në fund të çdo faqeje */}
+    <Footer /> {}
   </>
   
 }

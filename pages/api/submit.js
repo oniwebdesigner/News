@@ -1,5 +1,5 @@
 // pages/api/submit.js
-import { db } from '../../firebaseConfig';
+import { db } from './firebaseConfig';
 import { collection, addDoc } from 'firebase/firestore';
 
 export default async function handler(req, res) {

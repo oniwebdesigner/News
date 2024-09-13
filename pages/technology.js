@@ -11,7 +11,7 @@ const Technology = () => {
         <ul className="space-y-6">
           <li className="bg-white shadow-md rounded-lg overflow-hidden hover:shadow-lg transition-shadow duration-300">
             <Link href="/technology/ai-revolution">
-              <div className="block p-6 hover:bg-gray-50">
+              <div className="block p-6 hover:bg-gray-50 " >
                 <h3 className="text-2xl font-semibold text-blue-600 hover:text-blue-800">The AI Revolution: How Artificial Intelligence is Changing the World</h3>
                 <p className="text-gray-600 mt-2">Explore the transformative impact of artificial intelligence on various industries, from healthcare to finance. Learn how AI is shaping the future.</p>
               </div>
@@ -31,7 +31,7 @@ const Technology = () => {
       <section>
         <h2 className="text-3xl font-semibold text-gray-700 mb-4 flex justify-center">Tech Videos</h2>
 
-        {/* Container for the videos */}
+        {}
         <div className="flex flex-wrap gap-6 justify-center">
           <div className="w-full md:w-1/3">
             <iframe
